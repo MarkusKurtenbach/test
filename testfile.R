@@ -14,4 +14,4 @@ prec_ger2<-mask(prec_ger1, germany)
 spplot(prec_ger2)
 
 prec_avg<-cellStats(prec_ger2,stat="mean")
-plot(prec_avg)
+plot(prec_avg) 
